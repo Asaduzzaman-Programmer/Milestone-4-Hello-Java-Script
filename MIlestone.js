@@ -70,13 +70,13 @@
 
 // console.log(res);
 
-let from = prompt("Enter Your Full Name");
-let nam = from;
-let prefix = "@"
-let sufix = nam.length;
-let userName = prefix.concat(from).concat(sufix);
+// let from = prompt("Enter Your Full Name");
+// let nam = from;
+// let prefix = "@"
+// let sufix = nam.length;
+// let userName = prefix.concat(from).concat(sufix);
 
-console.log("Your user Name is =", userName);
+// console.log("Your user Name is =", userName);
 
 
 
