@@ -58,14 +58,15 @@
 // console.log(nam.length);
 
 
-let cas = "  Apna   ";
-let ca = cas.toUpperCase();
-console.log(ca);
+// let str1 = "Apna";
+// let str2 = "Collage";
 
+// let str3 = str1.concat(str1)
+// console.log(str3);
 
+let hello = "Hello";
 
+let res = hello.replace("He", "pl")
 
-
-
-
+console.log(res);
 
