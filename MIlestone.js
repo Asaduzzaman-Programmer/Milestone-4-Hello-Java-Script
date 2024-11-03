@@ -43,23 +43,24 @@
 // console.log(grade);
 
 
-let gus = prompt("Gees a Number in 1 to 5")
+// let str = "apna collage";
+// console.log(typeof str[9]);
 
-let result = 2;
+// let product = {
+//     name : "pen",
+//     price : 5,
+// }
 
-if(gus == result){
-    console.log("Yes You are Right");
-}
-else{
-    console.log("Not this . Plz think again");
-}
+// let out = `The price of ${product.name} is ${product.price}`
+// console.log(out);
+// let nam = "pana \t collage"
 
-
-
-
-
+// console.log(nam.length);
 
 
+let cas = "  Apna   ";
+let ca = cas.toUpperCase();
+console.log(ca);
 
 
 
