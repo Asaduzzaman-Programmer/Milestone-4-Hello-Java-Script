@@ -4,14 +4,21 @@
 //     love++;
 // } while (love >=10);
 
-let love = "Sawon";
-let num = 0;
-for (let val of love){
+// let love = "Sawon";
+// let num = 0;
+// for (let val of love){
     
-    num++;
+//     num++;
+// }
+// console.log(num);
+
+let student = {
+    name : "Sawon",
+    cgp : 3.11,
+    ins : "Kurigram Polytechnic"
+};
+for (let i in student){
+    console.log(i, student[i]);
 }
-console.log(num);
-
-
 
 
