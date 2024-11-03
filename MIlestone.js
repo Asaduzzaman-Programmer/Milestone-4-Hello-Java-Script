@@ -12,13 +12,36 @@
 // }
 // console.log(num);
 
-let student = {
-    name : "Sawon",
-    cgp : 3.11,
-    ins : "Kurigram Polytechnic"
-};
-for (let i in student){
-    console.log(i, student[i]);
+// let student = {
+//     name : "Sawon",
+//     cgp : 3.11,
+//     ins : "Kurigram Polytechnic"
+// };
+// for (let i in student){
+//     console.log(i, student[i]);
+// }
+
+for (let num = 0; num <= 100; num++ ){
+   let even 
+   if(num%2 !==0 && num>0){
+    even = num
+    console.log("Odd Number =", even);
+   }
+   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
