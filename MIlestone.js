@@ -64,9 +64,32 @@
 // let str3 = str1.concat(str1)
 // console.log(str3);
 
-let hello = "Hello";
+// let hello = "Hello";
 
-let res = hello.replace("He", "pl")
+// let res = hello.replace("He", "pl")
 
-console.log(res);
+// console.log(res);
+
+let from = prompt("Enter Your Full Name");
+let nam = from;
+let prefix = "@"
+let sufix = nam.length;
+let userName = prefix.concat(from).concat(sufix);
+
+console.log("Your user Name is =", userName);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
