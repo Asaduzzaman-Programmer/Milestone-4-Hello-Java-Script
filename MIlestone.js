@@ -79,12 +79,25 @@
 // console.log("Your user Name is =", userName);
 
 
-console.log("Sawon love Taskin ");
+// let write = prompt("Guease a Number");
+// let win = 4;
+
+// while(write != win){
+//     write = prompt("Guease a Number");
+
+// }
+// console.log("You top");
 
 
+let write = prompt("Gues a Number");
 
+let result = 4;
 
-
+if(write == result){
+    console.log("Your The Right Thinker");
+}else{
+    write = prompt("Try another Number")
+}
 
 
 
