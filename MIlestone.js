@@ -109,21 +109,30 @@
 // num.pop();
 // console.log(num);
 
-const nam = ["siyam", "rejoyan", "mubassir"]
+// const nam = ["siyam", "rejoyan", "mubassir"]
 
 
-let out = nam.shift();
+// let out = nam.shift();
 
 
-nam.unshift("dipu")
+// nam.unshift("dipu")
 
-console.log(nam);
-
-
-console.log(out);
+// console.log(nam);
 
 
+// console.log(out);
 
+// Include JavaScript
+
+const nam = ["siyam", "saon", "dipu",]
+
+
+if(nam.includes("sawon")){
+    console.log("mil on hbe");
+}
+else{
+    console.log("mil on hbe na");
+}
 
 
 
