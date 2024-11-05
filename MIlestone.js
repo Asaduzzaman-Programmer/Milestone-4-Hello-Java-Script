@@ -102,21 +102,25 @@
 // 
 
 
-const num = [1, 2, 3, 4, 5, 6];
-console.log(num);
-num.push(4, 5, 9);
-console.log(num);
-num.pop();
-console.log(num);
+// const num = [1, 2, 3, 4, 5, 6];
+// console.log(num);
+// num.push(4, 5, 9);
+// console.log(num);
+// num.pop();
+// console.log(num);
+
+const nam = ["siyam", "rejoyan", "mubassir"]
 
 
+let out = nam.shift();
 
 
+nam.unshift("dipu")
+
+console.log(nam);
 
 
-
-
-
+console.log(out);
 
 
 
