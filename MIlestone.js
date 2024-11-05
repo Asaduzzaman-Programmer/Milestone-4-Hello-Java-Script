@@ -99,12 +99,15 @@
 //     write = prompt("Try another Number")
 // }
 
-const age = [12, 22, 52];
-console.log(age[0]);
+// 
 
-age[0]= 4;
-console.log(age[0]);
 
+const num = [1, 2, 3, 4, 5, 6];
+console.log(num);
+num.push(4, 5, 9);
+console.log(num);
+num.pop();
+console.log(num);
 
 
 
