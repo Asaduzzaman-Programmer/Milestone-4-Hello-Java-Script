@@ -89,15 +89,32 @@
 // console.log("You top");
 
 
-let write = prompt("Gues a Number");
+// let write = prompt("Gues a Number");
 
-let result = 4;
+// let result = 4;
 
-if(write == result){
-    console.log("Your The Right Thinker");
-}else{
-    write = prompt("Try another Number")
-}
+// if(write == result){
+//     console.log("Your The Right Thinker");
+// }else{
+//     write = prompt("Try another Number")
+// }
+
+const age = [12, 22, 52];
+console.log(age[0]);
+
+age[0]= 4;
+console.log(age[0]);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
