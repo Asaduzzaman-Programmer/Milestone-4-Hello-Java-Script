@@ -147,9 +147,39 @@
 
 // console.log(nam.concat(nam2));
 
-const nam = [1,2,3,4,5,6,7,8,9];
+// const nam = ["sawon", "balk", "botol"];
 
-console.log(nam.slice(1,3));
+// for (let print = 0; print < nam.length; print++){
+//         console.log(nam[print]);
+// }
+
+const nam = ["sawon", "bal", "botol"];
+
+for (let print = 0; print < nam.length; print++){
+    // console.log(nam[print]);
+}
+
+
+
+
+const citis = ["rangpur", "kurigram", "chattrogram"];
+for ( let city of citis){
+    console.log(city);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
