@@ -124,20 +124,22 @@
 
 // Include JavaScript
 
-const nam = ["siyam", "saon", "dipu",]
+// const nam = ["siyam", "saon", "dipu",]
 
 
-if(nam.includes("sawon")){
-    console.log("mil on hbe");
-}
-else{
-    console.log("mil on hbe na");
-}
+// if(nam.includes("sawon")){
+//     console.log("mil on hbe");
+// }
+// else{
+//     console.log("mil on hbe na");
+// }
 
-console.log(nam.indexOf("siym"));
+// console.log(nam.indexOf("siym"));
 
 
+const nam = 15
 
+console.log(Array.isArray(nam));
 
 
 
