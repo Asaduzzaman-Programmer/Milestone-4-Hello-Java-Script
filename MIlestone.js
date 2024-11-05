@@ -137,14 +137,19 @@
 // console.log(nam.indexOf("siym"));
 
 
-const nam = 15
+// const nam = 15
 
-console.log(Array.isArray(nam));
-
-
+// console.log(Array.isArray(nam));
 
 
+// const nam = ["sawon"];
+// const nam2 = ["sawon2"]
 
+// console.log(nam.concat(nam2));
+
+const nam = [1,2,3,4,5,6,7,8,9];
+
+console.log(nam.slice(1,3));
 
 
 
