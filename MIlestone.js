@@ -134,7 +134,7 @@ else{
     console.log("mil on hbe na");
 }
 
-
+console.log(nam.indexOf("siym"));
 
 
 
