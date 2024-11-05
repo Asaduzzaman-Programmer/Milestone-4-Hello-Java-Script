@@ -153,26 +153,31 @@
 //         console.log(nam[print]);
 // }
 
-const nam = ["sawon", "bal", "botol"];
+// const nam = ["sawon", "bal", "botol"];
 
-for (let print = 0; print < nam.length; print++){
-    // console.log(nam[print]);
+// for (let print = 0; print < nam.length; print++){
+//     // console.log(nam[print]);
+// }
+
+
+
+
+// const citis = ["rangpur", "kurigram", "chattrogram"];
+// for ( let city of citis){
+//     console.log(city.toUpperCase());
+// }
+
+let marks = [1,2,3,4,5,6,7];
+let total = 0;
+
+for (let val of marks){
+    console.log(val);
+    total += val;
+
 }
 
-
-
-
-const citis = ["rangpur", "kurigram", "chattrogram"];
-for ( let city of citis){
-    console.log(city);
-}
-
-
-
-
-
-
-
+let avg = total / marks.length;
+console.log(avg);
 
 
 
