@@ -167,17 +167,17 @@
 //     console.log(city.toUpperCase());
 // }
 
-let marks = [1,2,3,4,5,6,7];
-let total = 0;
+// let marks = [1,2,3,4,5,6,7];
+// let total = 0;
 
-for (let val of marks){
-    console.log(val);
-    total += val;
+// for (let val of marks){
+//     console.log(val);
+//     total += val;
 
-}
+// }
 
-let avg = total / marks.length;
-console.log(avg);
+// let avg = total / marks.length;
+// console.log(avg);
 
 
 
