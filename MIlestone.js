@@ -22,16 +22,13 @@
 // }
 
 // for (let num = 0; num <= 100; num++ ){
-//    let even 
+//    let even
 //    if(num%2 !==0 && num>0){
 //     even = num
 //     console.log("Odd Number =", even);
 //    }
 
 // }
-
-
-
 
 // let score = 75;
 // let grade;
@@ -99,7 +96,7 @@
 //     write = prompt("Try another Number")
 // }
 
-// 
+//
 
 
 // const num = [1, 2, 3, 4, 5, 6];
@@ -159,9 +156,6 @@
 //     // console.log(nam[print]);
 // }
 
-
-
-
 // const citis = ["rangpur", "kurigram", "chattrogram"];
 // for ( let city of citis){
 //     console.log(city.toUpperCase());
@@ -183,12 +177,29 @@
 
 // console.log(marks[(marks.length - 1)]);
 
-const a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+// const a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+// console.log(a.flat());
+
+const Mobile = {
+    mobile : "samsung",
+    "model" : "s24 ulta",
+    camera : ["200mp", "12 tele", "12 ultrawi"],
+    zoom : true,
+}
+console.log(Mobile);
+
+console.log(Mobile.camera);
+console.log(Mobile.model);
 
 
 
 
-console.log(a.flat());
+
+
+
+
+
 
 
 
