@@ -186,11 +186,18 @@ const Mobile = {
     "model" : "s24 ulta",
     camera : ["200mp", "12 tele", "12 ultrawi"],
     zoom : true,
-}
+};
+
+Object.freeze(Mobile)
+
+Mobile.model = "s25 ulta"
 console.log(Mobile);
 
 console.log(Mobile.camera);
-console.log(Mobile.model);
+console.log(Mobile["model"]);
+
+
+
 
 
 
