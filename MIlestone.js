@@ -208,25 +208,46 @@
 // console.log(Object.keys(Mobile));
 // console.log(Object.values(Mobile));
 
-const ob1 = {
-    a :1,
-    b :2,
-    c : 3
-}
-const ob2 = {
-    d :4,
-    e :5,
-    f :6
-}
-const ob3 = {
-    g :7,
-    h :8,
-    i : 9
-}
+// const ob1 = {
+//     a :1,
+//     b :2,
+//     c : 3
+// }
+// const ob2 = {
+//     d :4,
+//     e :5,
+//     f :6
+// }
+// const ob3 = {
+//     g :7,
+//     h :8,
+//     i : 9
+// }
+// const obF = Object.assign({}, ob1, ob2, ob3)
 
-const obF = Object.assign({}, ob1, ob2, ob3)
+// console.log(obF);
 
-console.log(obF);
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
