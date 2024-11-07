@@ -59,19 +59,23 @@
 //     return wish()
 // }
 // greet()
+// let car = ['bmw', 'volvo', 'audi'];
+// car.push('xm9')
+
+// for (let i = 0; i < car.length; i++){
+//     console.log(car[i]);
+// }
 
 
-let car = ['bmw', 'volvo', 'audi'];
-car.push('xm9')
-
-for (let i = 0; i < car.length; i++){
-    console.log(car[i]);
+let nam = {
+    brand : 'iPhone',
+    model : "14pro Max",
+    ram : "8/256gb"
 }
 
-
-
-
-
+for (let i in nam){
+    console.log(i+ ": " + nam[i]);
+}
 
 
 
