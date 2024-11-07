@@ -196,30 +196,37 @@
 // console.log(Mobile.camera);
 // console.log(Mobile["model"]);
 
+// const Mobile = {
+//     nam : "samsung",
+//     brand : "s24 ulta",
+//     camera : ["200mp", "12mp", "12mp ulta"]
+// };
+// Mobile.nam = "iPhone"
 
+// console.log(Mobile.hasOwnProperty('nam'));
 
-const Mobile = {
-    nam : "samsung",
-    brand : "s24 ulta",
-    camera : ["200mp", "12mp", "12mp ulta"]
-};
-Mobile.nam = "iPhone"
+// console.log(Object.keys(Mobile));
+// console.log(Object.values(Mobile));
 
-let chek = Mobile.hasOwnProperty('nam');
+const ob1 = {
+    a :1,
+    b :2,
+    c : 3
+}
+const ob2 = {
+    d :4,
+    e :5,
+    f :6
+}
+const ob3 = {
+    g :7,
+    h :8,
+    i : 9
+}
 
-console.log(chek);
+const obF = Object.assign({}, ob1, ob2, ob3)
 
-console.log(Object.values(Mobile));
-
-
-
-
-
-
-
-
-
-
+console.log(obF);
 
 
 
