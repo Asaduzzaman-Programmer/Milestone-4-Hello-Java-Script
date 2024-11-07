@@ -79,15 +79,17 @@
 // car.forEach(function(I){
 //     console.log(I);
 // })
+// let nam = ['sawon', 'taskin', 'faiyaz'];
+// nam.push('manha')
+// nam.forEach(function(i){
+//     console.log(i);
+// })
 
-let nam = ['sawon', 'taskin', 'faiyaz'];
-nam.push('manha')
-nam.forEach(function(i){
+let car = ['volvo', 'marcedes', 'audi'];
+car.push('i8')
+for (let i of car){
     console.log(i);
-})
-
-
-
+}
 
 
 
