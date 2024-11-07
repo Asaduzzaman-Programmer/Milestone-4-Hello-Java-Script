@@ -51,17 +51,22 @@
 //    return num * num
 // }
 // console.log(sqNum(4));
-let nam = prompt("Enter Your Name")
-function greet(){
-    function wish(){
-        alert("Hello " + nam)
-    }
-    return wish()
+// let nam = prompt("Enter Your Name")
+// function greet(){
+//     function wish(){
+//         alert("Hello " + nam)
+//     }
+//     return wish()
+// }
+// greet()
+
+
+let car = ['bmw', 'volvo', 'audi'];
+car.push('xm9')
+
+for (let i = 0; i < car.length; i++){
+    console.log(car[i]);
 }
-greet()
-
-
-
 
 
 
