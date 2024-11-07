@@ -209,6 +209,8 @@ let chek = Mobile.hasOwnProperty('nam');
 
 console.log(chek);
 
+console.log(Object.values(Mobile));
+
 
 
 
