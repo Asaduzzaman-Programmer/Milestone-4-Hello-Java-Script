@@ -181,26 +181,33 @@
 
 // console.log(a.flat());
 
+// const Mobile = {
+//     mobile : "samsung",
+//     "model" : "s24 ulta",
+//     camera : ["200mp", "12 tele", "12 ultrawi"],
+//     zoom : true,
+// };
+
+// Object.freeze(Mobile)
+
+// Mobile.model = "s25 ulta"
+// console.log(Mobile);
+
+// console.log(Mobile.camera);
+// console.log(Mobile["model"]);
+
+
+
 const Mobile = {
-    mobile : "samsung",
-    "model" : "s24 ulta",
-    camera : ["200mp", "12 tele", "12 ultrawi"],
-    zoom : true,
-};
+    nam : "samsung",
+    brand : "s24 ulta",
+    camera : ["200mp", "12mp", "12mp ulta"]
+}
 
 Object.freeze(Mobile)
+Mobile.nam = "iPhone"
 
-Mobile.model = "s25 ulta"
 console.log(Mobile);
-
-console.log(Mobile.camera);
-console.log(Mobile["model"]);
-
-
-
-
-
-
 
 
 
