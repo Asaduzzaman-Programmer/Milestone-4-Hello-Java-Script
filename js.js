@@ -29,14 +29,19 @@
 // })
 // ("self")
 
-let math = function(x, y){
-    return x * y
-}
-console.log(math(4,8));
-console.log(math(3,8));
-console.log(math(2,8));
+// let math = function(x, y){
+//     console.log("dadhad");
+//     return x * y
+// }
+// console.log(math(4,8));
+// console.log(math(3,8));
+// console.log(math(2,8));
 
-
+let numbers = [4,5,6];
+let res = numbers.map(function(x){
+return x *x 
+})
+console.log(res);
 
 
 
