@@ -1,15 +1,16 @@
-let nam = prompt("Enter Your Name")
-function myFunction(nam){
-    console.log("Hello " +nam);
+// let nam = prompt("Enter Your Name")
+
+// function myFunction(nam){
+//     console.log("Hello " +nam);
+// }
+// myFunction(nam)
+
+
+function myFunction(){
+    console.log("Subscribed");
 }
-myFunction(nam)
 
-
-
-
-
-
-
+document.getElementById('btn').addEventListener("click", myFunction)
 
 
 
