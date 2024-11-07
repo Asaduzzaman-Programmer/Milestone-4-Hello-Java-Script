@@ -47,13 +47,18 @@
 //         return num *num;
 // })
 // console.log(sqNum);
-let sqNum = function(num){
-   return num * num
+// let sqNum = function(num){
+//    return num * num
+// }
+// console.log(sqNum(4));
+let nam = prompt("Enter Your Name")
+function greet(){
+    function wish(){
+        alert("Hello " + nam)
+    }
+    return wish()
 }
-console.log(sqNum(4));
-
-
-
+greet()
 
 
 
