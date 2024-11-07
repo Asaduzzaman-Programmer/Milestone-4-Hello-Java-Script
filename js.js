@@ -40,18 +40,17 @@
 // return x *x 
 // })
 // console.log(res);
-
-
-
-let arrow = (x, y) => x / y;
-console.log(arrow(8, 2));
-
-
-
-
-
-
-
+// let arrow = (x, y) => x / y;
+// console.log(arrow(8, 2));
+// let numbers = [4,5]
+// let sqNum = numbers.map(function(num){
+//         return num *num;
+// })
+// console.log(sqNum);
+let sqNum = function(num){
+   return num * num
+}
+console.log(sqNum(4));
 
 
 
