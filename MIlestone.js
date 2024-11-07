@@ -7,7 +7,7 @@
 // let love = "Sawon";
 // let num = 0;
 // for (let val of love){
-    
+
 //     num++;
 // }
 // console.log(num);
@@ -27,12 +27,12 @@
 //     even = num
 //     console.log("Odd Number =", even);
 //    }
-   
+
 // }
 
 
 
- 
+
 // let score = 75;
 // let grade;
 // if (score >= 90) {
@@ -179,15 +179,16 @@
 // let avg = total / marks.length;
 // console.log(avg);
 
-let marks = [10,12,13,14,15,16,4,5]
+// let marks = [10,12,13,14,15,16,4,5]
 
-console.log(marks[(marks.length - 1)]);
+// console.log(marks[(marks.length - 1)]);
 
-
-
-
+const a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 
+
+
+console.log(a.flat());
 
 
 
