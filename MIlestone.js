@@ -202,16 +202,12 @@ const Mobile = {
     nam : "samsung",
     brand : "s24 ulta",
     camera : ["200mp", "12mp", "12mp ulta"]
-}
-
-Object.freeze(Mobile)
+};
 Mobile.nam = "iPhone"
 
-console.log(Mobile);
+let chek = Mobile.hasOwnProperty('nam');
 
-
-
-
+console.log(chek);
 
 
 
