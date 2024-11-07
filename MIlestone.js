@@ -179,19 +179,9 @@
 // let avg = total / marks.length;
 // console.log(avg);
 
-let marks = [10,12,13,14,15,16,4]
-console.log(marks);
+let marks = [10,12,13,14,15,16,4,5]
 
-let inpu = prompt("Input here")
-
-let re = parseInt(inpu)
-
-
-marks[4] = re;
-
-console.log(marks);
-
-
+console.log(marks[(marks.length - 1)]);
 
 
 
