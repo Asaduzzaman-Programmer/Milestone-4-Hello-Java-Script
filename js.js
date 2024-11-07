@@ -65,22 +65,26 @@
 // for (let i = 0; i < car.length; i++){
 //     console.log(car[i]);
 // }
+// let nam = {
+//     brand : 'iPhone',
+//     model : "14pro Max",
+//     ram : "8/256gb"
+// }
+// for (let i in nam){
+//     console.log(i+ ": " + nam[i]);
+// }
 
+// let car = ['volvo', 'audi', 'marcedes'];
+// car.push('xm8')
+// car.forEach(function(I){
+//     console.log(I);
+// })
 
-let nam = {
-    brand : 'iPhone',
-    model : "14pro Max",
-    ram : "8/256gb"
-}
-
-for (let i in nam){
-    console.log(i+ ": " + nam[i]);
-}
-
-
-
-
-
+let nam = ['sawon', 'taskin', 'faiyaz'];
+nam.push('manha')
+nam.forEach(function(i){
+    console.log(i);
+})
 
 
 
