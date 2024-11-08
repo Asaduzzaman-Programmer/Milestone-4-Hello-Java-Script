@@ -251,7 +251,11 @@
 //     console.log(num);
 //     num++
 // }
-
+// let inpu = prompt("Enter Your Name");
+// function myFunction(){
+//     alert("hello " + inpu);
+// }
+// myFunction()
  
 
 
