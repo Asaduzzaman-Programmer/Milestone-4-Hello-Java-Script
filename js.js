@@ -8,15 +8,15 @@
 // nums.forEach(function(num){
 //     console.log(num);
 // })
-
-let nam = 0;
-while(nam < 4){
-    console.log("Taskin I love you", nam);
-    nam++
-}
-
-
-
+// let nam = 0;
+// while(nam < 4){
+//     console.log("Taskin I love you", nam);
+//     nam++
+// }
+// function myFunction(){
+//     console.log("Subscribed"); 
+// }
+// document.getElementById('btn').addEventListener('click', myFunction)
 
 
 
