@@ -1,24 +1,19 @@
-// for(let num = 0; num<=20; num++){
-//     if(num % 2 !==0){
-//         console.log("Odd Number", num);
+// for(let num = 1; num <= 10; num++){
+//     console.log(num);
+//     if(num >= 6){   
+//         break
 //     }
 // }
-// for(let num = 1; num<= 30; num++){
-//     if(num % 3 ===0 && num % 5===0){
-//         console.log(num);
+// console.log("Break");
+
+// let num = 50;
+// while(num < 54){
+//     console.log(num);
+//     num++;
+//     if(num >= 53){
+//         break
 //     }
 // }
-let sum = 0;
-for(let num = 1; num <= 20; num++){
-    if(num % 3 === 0){
-        sum = sum + num          
-    }
-}
-console.log(sum);   
-
-
-
-
 
 
 
