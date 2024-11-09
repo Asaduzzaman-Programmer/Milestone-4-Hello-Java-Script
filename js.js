@@ -8,15 +8,18 @@
 // const friends = "Rahim,Karim,Mukul,Rabbi";
 // const show = friends.split(",")
 // console.log(show);
+// const friends = ["mukul", "bokul", "sokul", "baul"];
+// const real = friends.join('||');
+// console.log(real);
 
-const friends = ["mukul", "bokul", "sokul", "baul"];
-const real = friends.join('||');
-console.log(real);
+const fst = "abid";
+const lst = "nabid";
 
+const nam = fst.concat(" ", lst);
+console.log(nam);
 
-
-
-
+const check = nam.includes("x")
+console.log(check);
 
 
 
