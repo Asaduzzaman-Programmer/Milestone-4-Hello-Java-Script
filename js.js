@@ -28,7 +28,7 @@ let key = Object.keys(mobile);
 console.log(key);
 
 for (let a of key){
-    console.log(a, ' ', mobile[a]);
+    console.log(a, ' ', mobile[a], "||", typeof(mobile[a]));
 }
 
 
