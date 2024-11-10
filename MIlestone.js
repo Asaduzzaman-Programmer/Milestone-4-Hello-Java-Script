@@ -337,10 +337,8 @@
 //  console.log(i);
 //  i++;
 // }
-
 //Dont Understand this code
 // const array = [1, 2, 3, 4, 5, 6, 7];
-
 // for (let i = 1; i < array.length; i++) {
 //  if (i == 5) {
 //  continue;
@@ -348,11 +346,28 @@
 //  console.log(array[i]);
 // }
 // function myFunction(){
-    //     console.log("Subscribe");
-    // }
-    
-    // document.getElementById('btn').addEventListener('click', myFunction)
-
+//     console.log("Subscribe");
+// }
+// document.getElementById('btn').addEventListener('click', myFunction)
+// const distict = `123456789`;
+// const show = distict.slice(0, 3);
+// console.log(show);
+// const nam = "I am a bad person";
+// console.log(nam);
+// const res = nam.split(" ");
+// console.log(res);
+// const friends = "Rahim,Karim,Mukul,Rabbi";
+// const show = friends.split(",")
+// console.log(show);
+// const friends = ["mukul", "bokul", "sokul", "baul"];
+// const real = friends.join('||');
+// console.log(real);
+// const fst = "abid";
+// const lst = "nabid";
+// const nam = fst.concat(" ", lst);
+// const check = nam.includes("x")
+// console.log(check);
+// console.log(nam);
 
 
 
