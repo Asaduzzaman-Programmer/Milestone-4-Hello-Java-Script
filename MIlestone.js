@@ -368,6 +368,14 @@
 // const check = nam.includes("x")
 // console.log(check);
 // console.log(nam);
+// let str = "i am a web developer";
+// let reverse = ""
+// for(let letter of str){
+//     console.log(letter);
+//     reverse = letter + reverse
+// }
+// console.log(reverse);
+
 
 
 

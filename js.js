@@ -1,16 +1,11 @@
-
-let letters = "i am a website developer";
-console.log(letters);
-const reverse = ""
-for (const letter of letters){
-    console.log(letter);
+let person = {
+    name: "sodor uddin",
+    profession: "developer",
+    sallary: 20000,
 }
-
-
-
-
-
-
+let keys = Object.keys(person)
+console.log(keys);
+console.log(Object.values(person));
 
 
 
