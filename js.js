@@ -13,17 +13,23 @@ let person = {
     }
 }
 let keys = Object.keys(person)
-console.log(keys);
-console.log(Object.values(person));
-console.log(person.uniqe.result.viw.theme);
-delete person.uniqe
-console.log(person);
 
 
+let mobile = {
+    brand: "Samsung",
+    model: "s24",
+    ram: 8,
+    rom: 256,
+}
 
+console.log(mobile);
 
+let key = Object.keys(mobile);
+console.log(key);
 
-
+for (let a of key){
+    console.log(a, ' ', mobile[a]);
+}
 
 
 
