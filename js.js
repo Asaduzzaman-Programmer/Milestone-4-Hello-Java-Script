@@ -16,7 +16,8 @@ let keys = Object.keys(person)
 console.log(keys);
 console.log(Object.values(person));
 console.log(person.uniqe.result.viw.theme);
-
+delete person.uniqe
+console.log(person);
 
 
 
