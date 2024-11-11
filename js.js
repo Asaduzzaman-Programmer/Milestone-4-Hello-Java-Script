@@ -1,35 +1,43 @@
-let person = {
-    name: "sodor uddin",
-    profession: "developer",
-    sallary: 20000,
-    uniqe: {
-        color: "vivid",
-        result: {
-            gpa: 5,
-            viw: {
-                theme: "blavck"
-            }
-        }
-    }
-}
-let keys = Object.keys(person)
+// const friends = ["Mark", "Elon", "Bill", "Waren"];
+// console.log(friends);
+// for(let i of friends){
+//     console.log(i);
+// }
 
 
-let mobile = {
-    brand: "Samsung",
-    model: "s24",
-    ram: 8,
-    rom: 256,
+const friends = ["Mark", "Bill", "Elon", "Warfaze"];
+let i = 0;
+while(i < friends.length){
+    console.log(friends[i]);
+    i++;
+  
+  
 }
 
-console.log(mobile);
 
-let key = Object.keys(mobile);
-console.log(key);
 
-for (let a of key){
-    console.log(a, ' ', mobile[a], "||", typeof(mobile[a]));
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
