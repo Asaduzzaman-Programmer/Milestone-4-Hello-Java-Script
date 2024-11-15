@@ -7,6 +7,7 @@ for (let i = num.length-1; i>=0; i--){
     console.log(re);
 }
 var b = 4;
+console.log(b);
 
 
 
