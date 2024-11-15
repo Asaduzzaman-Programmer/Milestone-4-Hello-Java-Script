@@ -1,23 +1,15 @@
-function subs(){
-    console.log("Subscribe");
+// const input = prompt("Enter Your Sq Number")
+
+// function sq(num){
+//     const total = num * num;
+//     console.log(total);
+// }
+// sq(input)
+function sum(num1, num2){
+    const total = num1 + num2;
+    console.log(total);
 }
-
-function unsubs(){
-    console.log("Unsubsribe");
-}
-
-document.getElementById('btn').addEventListener('click', subs)
-document.getElementById('btn2').addEventListener('click', unsubs)
-
-
-
-
-
-
-
-
-
-
+sum(4,9)
 
 
 

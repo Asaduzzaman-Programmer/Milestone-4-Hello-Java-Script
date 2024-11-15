@@ -431,13 +431,19 @@
 // for (let i = num.length-1; i>=0; i--){
 //     let j = num[i]
 //     console.log(j);
-
 //     let re = num.join(" ")
 //     console.log(re);
 // }
 // var b = 4;
 // console.log(b);
-
+// function subs(){
+//     console.log("Subscribe");
+// }
+// function unsubs(){
+//     console.log("Unsubsribe");
+// } 
+// document.getElementById('btn').addEventListener('click', subs)
+// document.getElementById('btn2').addEventListener('click', unsubs)   
 
 
 
