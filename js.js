@@ -5,11 +5,41 @@
 //     console.log(total);
 // }
 // sq(input)
-function sum(num1, num2){
-    const total = num1 + num2;
-    console.log(total);
+// function sum(num1, num2){
+//     const total = num1 + num2;
+//     return total;
+// }
+// sum(4,9)
+// const res = sum(4,9)
+// console.log(res);
+
+function test(num){
+    if (num <= 4){
+        return true;
+    }
+ 
+        return false;
+    
 }
-sum(4,9)
+
+console.log(test(1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
