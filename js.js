@@ -6,12 +6,16 @@ function feetInch(x){
     return d;
 }
 const result = feetInch(75)
-console.log(result);
+// console.log(result);
 
 
-
-
-
+function mileToKellomiters (x) {
+    console.log("Paiche mal ta");
+    let a = x * 1.60934
+    return a
+}
+const kilomiters = mileToKellomiters(75)
+console.log(kilomiters);
 
 
 
