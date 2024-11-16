@@ -1,30 +1,14 @@
-// const input = prompt("Enter Your Sq Number")
-
-// function sq(num){
-//     const total = num * num;
-//     console.log(total);
-// }
-// sq(input)
-// function sum(num1, num2){
-//     const total = num1 + num2;
-//     return total;
-// }
-// sum(4,9)
-// const res = sum(4,9)
-// console.log(res);
-
-function test(num){
-    if (num <= 4){
-        return true;
+function res (main){
+    let start = 0;
+    for(num of main){
+        console.log(num);
+        start = start + num;
     }
- 
-        return false;
-    
+    return start
 }
-
-console.log(test(1));
-
-
+const main = [1,2,3,4,5]
+const total = res(main)
+console.log("The sum of the array is", total);
 
 
 
