@@ -1,40 +1,14 @@
-function oddAvg(array) {
-    const odds = [];
-    for (const i of array){
-    if(i % 2 !==0){
-        odds.push(i)
-     }
+function make_avg(array, size){
+    let sum = 0;
+    for(let num of array){
+        sum = sum + num
     }
-    let sum = 0
-    for (const i of odds){
-        sum = sum + i
-    }
-    const count = odds.length
-    const avg = sum / count
-    return avg
+    return sum / size
 }
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const result = oddAvg(array);
+const array = [1,2,3,4,5,6,7,8,9,10]
+const size = array.length
+const result = make_avg(array, size)
 console.log(result);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

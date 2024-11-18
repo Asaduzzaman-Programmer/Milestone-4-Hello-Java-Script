@@ -502,8 +502,58 @@
 // }
 // const kilomiters = mileToKellomiters(75)
 // console.log(kilomiters);
-
-
+// function oddAvg(array) {
+//     const odds = [];
+//     for (const i of array){
+//     if(i % 2 !==0){
+//         odds.push(i)
+//      }
+//     }
+//     let sum = 0
+//     for (const i of odds){
+//         sum = sum + i
+//     }
+//     const count = odds.length
+//     const avg = sum / count
+//     return avg
+// }
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const result = oddAvg(array);
+// console.log(result);
+// function click(){
+//     console.log("I am subscribed");
+// }
+// function click2(){
+//     console.log("I am Unsubscribed");
+// }
+// document.getElementById('btn').addEventListener("click", click)
+// document.getElementById('btn2').addEventListener("click", click2)
+// const neo = prompt("Put the inch & get it in feet")
+// function feet(neo){
+//     let result = neo / 12;
+//     let out = parseInt(result);
+//     let ou2 = neo % 12;
+//     let option = `Your height ${out} feet ${ou2} inch`
+//     return option
+// }
+// let result = feet(neo)
+// console.log(result);
+// function start(a, b, c, d){
+//     const sum = a + b + c + d
+//     return sum
+// }
+// const result = start(1,2,3,4)
+// console.log(result);
+// function start(x){
+//    if(x % 2 !== 0){
+//     return x * 2
+//    }
+//    else{
+//     return x / 2
+//    }
+// }
+// const result = start(8);
+// console.log(result);
 
 
 
