@@ -663,7 +663,18 @@
 // }
 // const result = price(1,2,3);
 // console.log(result);
-
+// const fon = [2,3,4,5]
+// function cheap(arr){
+//     let chep = fon[0]
+//     for(let cheap of arr){
+//         if(cheap < chep){
+//             chep = cheap
+//         }
+//     }
+//     return chep
+// }
+// const result = cheap(fon);
+// console.log(result);
 
 
 
