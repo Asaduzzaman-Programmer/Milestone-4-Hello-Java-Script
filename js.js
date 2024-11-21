@@ -1,9 +1,182 @@
-const inpu = prompt("Input Your Number");
-function work(inpu){
-    return inpu * inpu;
+const nam = ['abul', 'babul', 'cabul', 'babul' , 'mokbul', 'cabul']
+function noDup(arr){
+    let uniqe = [];
+    for(let one of arr){
+        if(uniqe.includes(one)=== false){
+            uniqe.push(one)
+        }
+    }
+    return uniqe
 }
-const result = work(inpu);
+const result = noDup(nam)
 console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
