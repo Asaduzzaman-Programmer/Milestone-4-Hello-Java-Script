@@ -4,13 +4,12 @@ const pro = [
     {name: "genji", price: 300},
     {name: "panjabi", price: 800},
 ];
-
 function total(pro){
-    let itemTotal = 0;
-     for(let pri of pro){
-        itemTotal = itemTotal + pri.price
-     }
-     return itemTotal
+    let zero = 0
+    for(let one of pro){
+        zero = zero + one.price
+    }
+    return zero
 }
  const result = total(pro);
  console.log(result);
