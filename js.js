@@ -1,33 +1,18 @@
-const jim = 58;
-const kim = 85;
-const tim = 10;
-if(jim > kim && jim > tim){
-    console.log("The hero Jim");
+
+function price(item1, item2, item3){
+    const shirt = 150;
+    const pant = 180;
+    const panjabi = 450;
+
+    const shirtTotal = shirt * item1;
+    const pantTotal = pant * item2;
+    const panjabiTotal = panjabi * item3;
+
+    const itemTotal = shirtTotal + pantTotal + panjabiTotal;
+    return itemTotal;
 }
-else if(kim > jim && kim > tim){
-    console.log("The hero kim");
-}
-else {
-    console.log("The hero tim");
-}
-function big(num1, num2, num3){
-    if(num1 > num2 && num1 > num3){
-       return num1
-    }
-    else if(num2 > num1 && num2 > num3){
-        return num2;
-    }
-    else{
-        return num3
-    }
-}
-const result = big(12,2,8)
+const result = price(1,2,3);
 console.log(result);
-
-
-
-
-
 
 
 

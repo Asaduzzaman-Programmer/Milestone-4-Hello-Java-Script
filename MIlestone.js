@@ -68,7 +68,7 @@
 // }else{
 //     write = prompt("Try another Number")
 // }
-//
+
 // const num = [1, 2, 3, 4, 5, 6];
 // console.log(num);
 // num.push(4, 5, 9);
@@ -332,12 +332,12 @@
 //     }
 // }
 // console.log(sum);  
- // let i = 0;
+//  let i = 0;
 // while (i < 5) {
 //  console.log(i);
 //  i++;
 // }
-//Dont Understand this code
+// Dont Understand this code
 // const array = [1, 2, 3, 4, 5, 6, 7];
 // for (let i = 1; i < array.length; i++) {
 //  if (i == 5) {
@@ -602,8 +602,55 @@
 // }
 // const result = uniqe(num)
 // console.log(result);
-
-
+// const jim = 58;
+// const kim = 85;
+// const tim = 10;
+// if(jim > kim && jim > tim){
+//     console.log("The hero Jim");
+// }
+// else if(kim > jim && kim > tim){
+//     console.log("The hero kim");
+// }
+// else {
+//     console.log("The hero tim");
+// }
+// function big(num1, num2, num3){
+//     if(num1 > num2 && num1 > num3){
+//        return num1
+//     }
+//     else if(num2 > num1 && num2 > num3){
+//         return num2;
+//     }
+//     else{
+//         return num3
+//     }
+// }
+// const result = big(12,2,8)
+// console.log(result);
+// const tall = [1,2,3,4,5,6,4,5,1,26,7,90]
+// function tallest(arr){
+//     let max = tall[0]
+//     for(let num of arr){
+//         if(num > max){
+//             max = num
+//         }
+//     }
+//     return max
+// }
+// const result = tallest(tall);
+// console.log(result);
+// const number = [1,2,3,4,5,6,87,98,85];
+// function max(arr){
+//     let max = number[0]
+//     for(let num of arr){
+//         if(num > max){
+//             max = num
+//         }
+//     }
+//     return max
+// }
+// const result = max(number);
+// console.log(result);
 
 
 
