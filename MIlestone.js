@@ -651,7 +651,18 @@
 // }
 // const result = max(number);
 // console.log(result);
-
+// function price(item1, item2, item3){
+//     const shirt = 150;
+//     const pant = 180;
+//     const panjabi = 450;
+//     const shirtTotal = shirt * item1;
+//     const pantTotal = pant * item2;
+//     const panjabiTotal = panjabi * item3;
+//     const itemTotal = shirtTotal + pantTotal + panjabiTotal;
+//     return itemTotal;
+// }
+// const result = price(1,2,3);
+// console.log(result);
 
 
 

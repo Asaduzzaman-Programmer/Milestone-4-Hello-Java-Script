@@ -1,20 +1,15 @@
-
-function price(item1, item2, item3){
-    const shirt = 150;
-    const pant = 180;
-    const panjabi = 450;
-
-    const shirtTotal = shirt * item1;
-    const pantTotal = pant * item2;
-    const panjabiTotal = panjabi * item3;
-
-    const itemTotal = shirtTotal + pantTotal + panjabiTotal;
-    return itemTotal;
+const fon = [2,3,4,5]
+function cheap(arr){
+    let chep = fon[0]
+    for(let cheap of arr){
+        if(cheap < chep){
+            chep = cheap
+        }
+    }
+    return chep
 }
-const result = price(1,2,3);
+const result = cheap(fon);
 console.log(result);
-
-
 
 
 
