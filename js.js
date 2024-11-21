@@ -1,21 +1,38 @@
-const pro = [
-    {name: "shirt", price: 700},
-    {name: "pant", price: 500},
-    {name: "genji", price: 300},
-    {name: "panjabi", price: 800},
-];
-function total(pro){
-    let zero = 0
-    for(let one of pro){
-        zero = zero + one.price
-    }
-    return zero
+function add(a, b ){
+    return a + b;
 }
- const result = total(pro);
- console.log(result);
-
-
-
+function sub(a, b ){
+    return a - b;
+}
+function multi(a, b ){
+    return a * b;
+}
+function div(a, b )   {
+    return a / b;
+}
+function cal(a, b, op){
+    if(op === "+"){
+        const result = add(a, b);
+        return result;
+    }
+    else if(op === "-"){
+        const result = sub(a, b);
+        return result;
+    }
+    else if(op === "*"){
+        const result = multi(a, b);
+        return result;
+    }
+    else  if(op === "/"){
+        const result = div(a, b);
+        return result;
+    }
+    else{
+        return "Math Error"
+    }
+}
+const result = cal(5, 8, "*")
+console.log(result);
 
 
 

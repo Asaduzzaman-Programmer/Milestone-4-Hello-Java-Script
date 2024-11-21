@@ -693,6 +693,21 @@
 // }
 // const result = cheap(fon);
 // console.log(result);
+// const pro = [
+//     {name: "shirt", price: 700},
+//     {name: "pant", price: 500},
+//     {name: "genji", price: 300},
+//     {name: "panjabi", price: 800},
+// ];
+// function total(pro){
+//     let zero = 0
+//     for(let one of pro){
+//         zero = zero + one.price
+//     }
+//     return zero
+// }
+//  const result = total(pro);
+//  console.log(result);
 
 
 
