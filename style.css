@@ -10,6 +10,10 @@ button{
 }
 
 button:hover{
-    background-color: aqua;
+    background-color: rgb(10, 12, 12);
     
+}
+
+.test{
+    background-color: black;
 }
