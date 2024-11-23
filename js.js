@@ -1,38 +1,12 @@
-function add(a, b){
-    return a + b;
+function subscribed(){
+    document.getElementById('btn').innerHTML = "Done";
+    document.getElementById('btn').style.backgroundColor = '#262626';
 }
-function sub(a, b){
-    return a - b;
-}
-function multi(a, b){
-    return a * b;
-}
-function div(a, b){
-    return a / b;
-}
-function cal(a, b, op){
-    if(op === "+"){
-        const result = add(a ,b);
-        return result;
-    }
-    else if(op === "-"){
-        return sub(a, b)
-    }
-    else if(op === "*"){
-        return multi(a, b)
-    }
-    else if(op === "/"){
-        return div(a, b)
-    }
-    else{
-        return "MATH Eroro"
-    }
-}
-const result = cal(5, 7, "")
-console.log(result);
 
 
-
+function like(){
+    document.getElementById('like').innerHTML = '<i class="fa-solid fa-thumbs-up"></i> Liked';
+}
 
 
 
