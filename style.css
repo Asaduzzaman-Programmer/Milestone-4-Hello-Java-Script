@@ -1,19 +1,26 @@
 button{
-    padding: 20px 35px;
-    font-size: 18px;
-    font: bold;
-    background-color: red;
-    color: aliceblue;
-    border: 0;
+    width: 100px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    background-color: rgb(110, 171, 224);
     border-radius: 8px;
+    color: aliceblue;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+#btn{
     
 }
 
-button:hover{
-    background-color: rgb(10, 12, 12);
-    
-}
 
-.test{
-    background-color: black;
-}
+
+
+
+
+
+
+
+
+
