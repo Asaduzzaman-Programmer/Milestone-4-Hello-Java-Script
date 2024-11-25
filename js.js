@@ -3,7 +3,9 @@ let b = 0.7;
 let c = (a*10 + b*10)/ 10
 console.log(c );
 
+let myDate = new Date();
 
+console.log(myDate.toString());
 
 
 
