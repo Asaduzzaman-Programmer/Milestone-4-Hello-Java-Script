@@ -13,9 +13,12 @@ const details = {
 }
 console.log(details.add.jela.gram.name);
 
-
-
-
+function add(num1, num2){
+    console.log(num1, num2);
+    // console.log(arguments.length);
+    console.log(arguments[1]);
+}
+add(12,13,14,5,6,2,5,)
 
 
 
