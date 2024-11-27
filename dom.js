@@ -1,28 +1,15 @@
-// let sopno = document.getElementById('sopno')
-// sopno.innerText = 'Bokachoda'
-// console.log(sopno);
-// let a = document.getElementsByClassName('bokachoda')
-// for(let i of a){
-//     i.innerText = "bokachoda sobai"
-//     console.log(i.innerText);
-// }
+const a = document.querySelectorAll('section')
+for(let i of a){
+    console.log(i);
+    i.style.border = "2px solid red"
+    i.style.margin = "5px"
+    i.style.alignItems = 'center'
+    i.style.textAlign = 'center'
+   
+}
 
-
-let a = document.querySelectorAll('.name li')
-
-console.log(a);
-
-
-
-
-
-
-
-
-
-
-
-
+const b = document.getElementById('id')
+b.classList.add('text')
 
 
 

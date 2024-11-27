@@ -12,11 +12,15 @@ button{
 
 #sopno{
     color: red;
+    
+align-items: center;
 }
 
 
 
-
+.text{
+     color: green;
+}
 
 
 
