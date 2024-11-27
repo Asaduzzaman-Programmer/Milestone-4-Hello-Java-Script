@@ -1,16 +1,10 @@
-// function like(){
-//     document.querySelector('button').innerHTML = '<i class="fa-solid fa-thumbs-up"></i> Liked'
-//     document.querySelector('h1').innerText = " I love you Sawon"
-// }
-console.log(document.body);
+const h1 = document.getElementsByTagName('h1')
 
-console.log(document.getElementsByTagName('h1'));
+console.log(h1);
 
-
-
-
-
-
+for(let i of h1){
+    console.log(i.innerText);
+}
 
 
 
