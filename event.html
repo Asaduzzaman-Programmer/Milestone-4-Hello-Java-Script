@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>event</title>
-</head>
-<body>
-    <h1 title="i am tooltip" onclick="console.log('i am onclick');">Dom er ajke special Event</h1>
-    
-    <button onclick="document.body.style.backgroundColor = 'Yellow'">Make me Yellow</button>
+  </head>
+  <body>
+    <h1 title="i am tooltip" onclick="console.log('i am onclick');">
+      Dom er ajke special Event
+    </h1>
+
+    <button onclick="document.body.style.backgroundColor = 'Yellow'">
+      Make me Yellow
+    </button>
     <button id="pink">Make me pink</button>
-    
+
+    <h1 id="change">Upadte my name baby</h1>
+
+    <input type="text" name="" id="inpu" placeholder="Enter the name" />
+    <button onclick="update()">Upadte</button>
+
+    <script>
+      function update() {
+            const inpu = document.getElementById("inpu").value;
+            const change = document.getElementById("change");
+            change.innerText = inpu;
+      }
+    </script>
+
+
     <script src="event.js"></script>
-</body>
+  </body>
 </html>

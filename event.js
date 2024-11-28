@@ -27,5 +27,3 @@ makePink.addEventListener('click', function(){
 
 
 
-
-
