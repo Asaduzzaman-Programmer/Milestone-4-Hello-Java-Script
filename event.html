@@ -6,20 +6,48 @@
     <title>event</title>
   </head>
   <body>
-      <h1 id="change">Write your name here</h1>
-      <label for="">Name :</label>
-      <input type="text" id="inpu" placeholder="Enter your Name">
-      <button onclick="input()">Update Name</button>
+    <h1 title="i am tooltip" onclick="console.log('i am onclick');">
+      Dom er ajke special Event
+    </h1>
+
+    <button onclick="document.body.style.backgroundColor = 'Yellow'">
+      Make me Yellow
+    </button>
+    <button id="pink">Make me pink</button>
+
+    <h1 id="change">Upadte my name baby</h1>
+
+    <input type="text" name="" id="inpu" placeholder="Enter the name" />
+    <button onclick="update()">Upadte</button>
+
+    <script>
+      function update() {
+            const inpu = document.getElementById("inpu").value;
+            const change = document.getElementById("change");
+            change.innerText = inpu;
+            document.getElementById("inpu").value = ' '
+      }
+    </script>
 
 
-      <script>
-        function input(){
-          const nibo = document.getElementById('inpu').value;
-          document.getElementById('change').innerText = "Your name is " + nibo
-          document.getElementById('inpu').value = " "
-        }
-      </script>
+    <section id="sec">
+      <ul>
+        <li>sawon</li>
+        <li>taskin</li>
+        <li>sawon</li>
+        <li>taskin</li>
+      </ul>
+    </section>
+    <button onclick="add()">ADD</button>
 
+      <div id="comment-section">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
+      </div>
+      <textarea name="comment" id="text" placeholder="Write your valuable comment" cols="50" rows="7"></textarea>
+      <button style="height: 30px; width: 390px;" id="" onclick="comment()">Comment</button>
     <script src="event.js"></script>
   </body>
 </html>
