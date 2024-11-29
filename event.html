@@ -6,28 +6,19 @@
     <title>event</title>
   </head>
   <body>
-    <h1 title="i am tooltip" onclick="console.log('i am onclick');">
-      Dom er ajke special Event
-    </h1>
+      <h1 id="change">Write your name here</h1>
+      <label for="">Name :</label>
+      <input type="text" id="inpu" placeholder="Enter your Name">
+      <button onclick="input()">Update Name</button>
 
-    <button onclick="document.body.style.backgroundColor = 'Yellow'">
-      Make me Yellow
-    </button>
-    <button id="pink">Make me pink</button>
 
-    <h1 id="change">Upadte my name baby</h1>
-
-    <input type="text" name="" id="inpu" placeholder="Enter the name" />
-    <button onclick="update()">Upadte</button>
-
-    <script>
-      function update() {
-            const inpu = document.getElementById("inpu").value;
-            const change = document.getElementById("change");
-            change.innerText = inpu;
-      }
-    </script>
-
+      <script>
+        function input(){
+          const nibo = document.getElementById('inpu').value;
+          document.getElementById('change').innerText = "Your name is " + nibo
+          document.getElementById('inpu').value = " "
+        }
+      </script>
 
     <script src="event.js"></script>
   </body>
