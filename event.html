@@ -12,38 +12,38 @@
     <button onclick="document.body.style.backgroundColor = 'Yellow'">
       Make me Yellow
     </button>
-    <button id="pink">Make me pink</button><br>
-    <h1 id="change">Upadte my name baby</h1><br>
-    <input type="text" name="" id="inpu" placeholder="Enter the name" autocomplete="off"/>
-    <button onclick="update()">Upadte</button><br><br>
-    <input type="text" placeholder="Delete" id="del">
+    <button id="pink">Make me pink</button><br />
+    <h1 id="change">Upadte my name baby</h1>
+    <br />
+    <input
+      type="text"
+      name=""
+      id="inpu"
+      placeholder="Enter the name"
+      autocomplete="off"
+    />
+    <button onclick="update()">Upadte</button><br /><br />
+    <input type="text" placeholder="Delete" id="del" autocomplete="off" />
     <button onclick="del()" id="del-but" disabled>Delete</button>
     <script>
       function update() {
-            const inpu = document.getElementById("inpu").value;
-            const change = document.getElementById("change");
-            change.innerText = inpu + ' Is my name';
-            document.getElementById("inpu").value = ' '
+        const inpu = document.getElementById("inpu").value;
+        const change = document.getElementById("change");
+        change.innerText = inpu + " Is my name";
+        document.getElementById("inpu").value = " ";
       }
-      document.getElementById('del').addEventListener('focus', function(){
+      document.getElementById("del").addEventListener("keyup", function () {
         console.log("nal  ta");
-        const show = document.getElementById('del').value;
+        const show = document.getElementById("del").value;
         console.log(show);
-        if(show === "Delete"){
-          document.getElementById('del-but').removeAttribute('disabled')
+        if (show === "Delete") {
+          document.getElementById("del-but").removeAttribute("disabled");
         }
-        else{
-          document.getElementById('del-but').setAttribute('disabled')
-        }
-      })
-      function del(){
-          const rem = document.getElementById('change')
-          rem.style.display = 'none'
-          
-          
+      });
+      function del() {
+        const rem = document.getElementById("change");
+        rem.style.display = "none";
       }
-
-
     </script>
     <section id="sec">
       <ul>
@@ -54,15 +54,42 @@
       </ul>
     </section>
     <button onclick="add()">ADD</button>
-      <div id="comment-section">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum molestias quam, modi laborum corporis repellendus suscipit neque ab impedit quae laudantium?</p>
-      </div>
-      <textarea name="comment" id="text" placeholder="Write your valuable comment" cols="50" rows="7"></textarea>
-      <button style="height: 30px; width: 390px;" id="" onclick="comment()">Comment</button>
-    
-      <script src="event.js"></script>
+    <div id="comment-section">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum
+        molestias quam, modi laborum corporis repellendus suscipit neque ab
+        impedit quae laudantium?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum
+        molestias quam, modi laborum corporis repellendus suscipit neque ab
+        impedit quae laudantium?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum
+        molestias quam, modi laborum corporis repellendus suscipit neque ab
+        impedit quae laudantium?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        alias molestiae eligendi tempora cupiditate ipsam eveniet officia earum
+        molestias quam, modi laborum corporis repellendus suscipit neque ab
+        impedit quae laudantium?
+      </p>
+    </div>
+    <textarea
+      name="comment"
+      id="text"
+      placeholder="Write your valuable comment"
+      cols="50"
+      rows="7"
+    ></textarea>
+    <button style="height: 30px; width: 390px" id="" onclick="comment()">
+      Comment
+    </button>
+    <script src="event.js"></script>
   </body>
 </html>
