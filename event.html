@@ -32,12 +32,13 @@
         change.innerText = inpu + " Is my name";
         document.getElementById("inpu").value = " ";
       }
-      document.getElementById("del").addEventListener("keyup", function () {
-        console.log("nal  ta");
-        const show = document.getElementById("del").value;
-        console.log(show);
+      document.getElementById("del").addEventListener("keyup", function (event) {
+        const show = event.target.value
         if (show === "Delete") {
           document.getElementById("del-but").removeAttribute("disabled");
+        }
+        else{
+          document.getElementById('del-but').setAttribute("disabled", true)
         }
       });
       function del() {
