@@ -2,8 +2,6 @@ const makePink = document.getElementById('pink');
 makePink.addEventListener('click', function(){
     document.body.style.backgroundColor = 'pink'
 })
-
-
 const section = document.getElementById('sec');
 function add(){
     const sec = document.createElement('section');
@@ -15,11 +13,9 @@ function add(){
           <li>sawon</li>
           <li>taskin</li>
         </ul>
-     
 `
     document.querySelector('body').append(sec)
 }
-
 function comment(){
     const text =  document.getElementById('text').value
     const commentSection = document.getElementById('comment-section')
@@ -28,8 +24,9 @@ function comment(){
     commentSection.appendChild(add)
     document.getElementById('text').value = ''
 }
-
-
+document.getElementById('text').addEventListener('focus', function(){
+    console.log("Event trigerded");
+})
 
 
 
