@@ -55,3 +55,8 @@ const result = num2.map(i => i * 2)
 console.log(result);
 const result2 = num2.map(i => i * 2 +5);
 console.log(result2);
+
+const friends = ["sawon", "rakiob", "hridoy", "sarkar"];
+const result3 = friends.map(i => i.length);
+const result4 = friends.map(i => i[0])
+console.log(result4, result3);
