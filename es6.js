@@ -41,3 +41,11 @@ const product = {
 }
 
 console.log(product.model[2].mobile);
+
+const doubles = [2,3,4,5,6,7];
+const doubled = []
+for(let i of doubles){
+    const u = i * 2;
+    doubled.push(u)
+}
+console.log(doubled);
