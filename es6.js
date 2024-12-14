@@ -49,3 +49,9 @@ for(let i of doubles){
     doubled.push(u)
 }
 console.log(doubled);
+
+const num2 = [1,2,3,4,5,6,7,8,9];
+const result = num2.map(i => i * 2)
+console.log(result);
+const result2 = num2.map(i => i * 2 +5);
+console.log(result2);
