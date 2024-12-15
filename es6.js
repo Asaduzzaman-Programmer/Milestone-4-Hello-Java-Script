@@ -1,24 +1,15 @@
 const num = [1,2,3,54,6,8]
 const max = Math.max(...num);
-// console.log(max);
-// console.log(...num);
-
 const neww = num;
-// console.log(...neww);
-
 const ob = {
     name: "glass",
     brand : "texas",
     isClean : true,
 }
-
 const k = Object.keys(ob);
 const v = Object.values(ob)
-// console.log(k, v);
-
 const data = [{id: 1, name: "abul", address: "kochu khet"}];
 console.log(data[0].address);
-
 const product = {
     name: "iPhone",
     model:[
@@ -39,9 +30,7 @@ const product = {
         }
     ]
 }
-
 console.log(product.model[2].mobile);
-
 const doubles = [2,3,4,5,6,7];
 const doubled = []
 for(let i of doubles){
@@ -49,13 +38,11 @@ for(let i of doubles){
     doubled.push(u)
 }
 console.log(doubled);
-
 const num2 = [1,2,3,4,5,6,7,8,9];
 const result = num2.map(i => i * 2)
 console.log(result);
 const result2 = num2.map(i => i * 2 +5);
 console.log(result2);
-
 const friends = ["sawon", "rakiob", "hridoy", "sarkar"];
 const result3 = friends.map(i => i.length);
 const result4 = friends.map(i => i[0])
